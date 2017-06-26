@@ -29,6 +29,7 @@ public class ApplicationRunnerTest {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Human.class);
 		Human human = new Human(); 
 		human = context.getBean(Human.class);
+		//test commit branch
 	}
 
 }
